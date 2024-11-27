@@ -1,0 +1,26 @@
+.desktop {
+    display: flex;
+    justify-content: end;
+    >div {
+        display: flex;
+        max-width: 800px;
+        gap: 20px;
+        max-width: 800px;
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 100%;
+        justify-content: center;
+        a{
+            color: white;
+            padding: auto 20px;
+            text-decoration: none;
+
+            strong{
+                padding-right: 10px;
+            }
+        }
+        a:hover{
+            border-bottom: 2px solid white;
+            
+        }
+    }
+}
